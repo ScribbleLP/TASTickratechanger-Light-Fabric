@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "de.scribble.lp.tastickratechanger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"MixinMinecraftServer"
+  ],
+  "client": [
+	"MixinMinecraftClient",
+	"MixinRenderTickCounter",
+	"MixinSoundSystem"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

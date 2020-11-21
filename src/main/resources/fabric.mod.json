@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tastickratechanger",
+  "version": "${version}",
+  "name": "TASTickratechanger",
+  "description": "Changes the Tickrate",
+  "authors": [
+    "ScribbleLP"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tastickratechanger/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.scribble.lp.tastickratechanger.ModLoader"],
+    "client": ["de.scribble.lp.tastickratechanger.ModLoader"]
+  },
+  "mixins": [
+    "tastickratechanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
